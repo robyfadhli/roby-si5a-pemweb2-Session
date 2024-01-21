@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(img/capres.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+header {
+    background-color: #b41111;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    margin: 10px 0;
+    color: #0d0e0d;
+}
+
+.logout-link {
+    display: block;
+    text-align: center;
+    margin-top: 1px;
+    color: #691111;
+    text-decoration: none;
+}
