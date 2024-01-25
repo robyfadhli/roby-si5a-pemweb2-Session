@@ -10,9 +10,7 @@ if (isset($_POST['Login'])){
         //menciptakan session
         $_SESSION['login'] = $user;
     
-        echo "<center><h1> Anda Berhasil Login</h1>";
-        echo "<h4> Klik <a href='index.php'>Lanjut >> </a> untuk menuju ke halaman utama</h4>";
-        
+        echo "<script>alert('Anda Berhasil Login');window.location='index.php';</script>";
     }
     else {
         echo "<center><h1>Login Gagal</h1>";
